@@ -1,0 +1,37 @@
+﻿Instruksjoner
+=============
+
+0. Gå til https://github.com/iterate/git-kurs-ntnu-2011-09-26
+
+1. Fork repoet til din egen GitHub-konto ved å klikke på "fork" linken oppe til
+   høyre
+
+2. Clone repoet ned til din egen maskin:
+
+    git clone git@github.com:dinbruker/git-kurs-ntnu-2011-09-26.git
+
+3. Rediger denne filen og skriv inn navnet og epostadressen din under
+
+4. Stage denne filen for commit:
+
+    git add navneliste.txt
+
+5. Commit endringene:
+
+    git commit -m "La til meg"
+
+6. Push endringene tilbake til GitHub:
+
+    git push origin master
+
+   Her er "origin" en "remote" som peker på GitHub og "master" er branchen du
+   pusher til GitHub.
+
+
+Navneliste
+==========
+
+Kristian <klette@iterate.no>
+Stein Magnus <jodal@iterate.no>
+Roy Sindre Norangshol <roy.sindre@norangshol.no> (Rockj)
+Beate Baier Biribakken <beatebiribakken@gmail.com>
